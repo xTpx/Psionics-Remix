@@ -1,0 +1,51 @@
+#+TITLE: Psionics-Remix
+
+基本就是 RIME 官网[[https://www.v2ex.com/t/413553#r_5084499][幽能]]的拙劣复刻
+
+* Install
+  git clone https://github.com/xTpx/Psionics-Remix.git ~/.local/share/fcitx5/themes/Psionics-Remix
+
+* Config
+  =~/.config/fcitx5/conf/classicui.conf=
+
+  #+BEGIN_QUOTE
+  Vertical Candidate List=True
+
+  PerScreenDPI=True
+
+  Font="字体 Size"
+
+  Theme=Psionics-Remix
+  #+END_QUOTE
+
+  ~/.config/fcitx5/conf/classicui.conf \\ 
+  =Vertical Candidate List=False=
+  
+  ~/.config/fcitx5/conf/rime.conf or pinyin.conf \\
+  =PreeditInApplication=True=
+
+  [[https://raw.githubusercontent.com/xTpx/Psionics-Remix/master/screenshot/Horizontal-preedit.png]]
+
+  classicui.conf \\ 
+  =Vertical Candidate List=False=
+  
+  ~/.config/fcitx5/conf/rime.conf or pinyin.conf \\
+  =PreeditInApplication=False=
+
+  [[https://raw.githubusercontent.com/xTpx/Psionics-Remix/master/screenshot/Horizontal.png]]
+
+  classicui.conf \\ 
+  =Vertical Candidate List=True=
+  
+  ~/.config/fcitx5/conf/rime.conf or pinyin.conf \\
+  =PreeditInApplication=True=
+
+  [[https://raw.githubusercontent.com/xTpx/Psionics-Remix/master/screenshot/Vertial-preedit.png]]
+
+  classicui.conf \\ 
+  =Vertical Candidate List=True=
+  
+  ~/.config/fcitx5/conf/rime.conf or pinyin.conf \\
+  =PreeditInApplication=False=
+
+  [[https://raw.githubusercontent.com/xTpx/Psionics-Remix/master/screenshot/Vertial.png]]
